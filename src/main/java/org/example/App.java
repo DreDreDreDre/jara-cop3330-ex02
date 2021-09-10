@@ -23,5 +23,7 @@ public class App
         }
         stringLength = string.length();
         System.out.println(string + " has " + stringLength + " characters");
+
+        input.close();
     }
 }
